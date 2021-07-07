@@ -4,7 +4,7 @@ A pokedex made with pure HTML, CSS and Javascript
 
 ## Description
 
-This pokedex was made by me and [Gustavo Cauzzi] (https://github.com/Gustavo-Cauzzi) using [this API] (https://pokeapi.co/).
+This pokedex was made by me and [Gustavo Cauzzi](https://github.com/Gustavo-Cauzzi) using [this API](https://pokeapi.co/).
 
 ## How to run
 
@@ -15,6 +15,6 @@ This pokedex was made by me and [Gustavo Cauzzi] (https://github.com/Gustavo-Cau
 
 - Pokemon list: :white_check_mark:
 - Dynamically fetching pokemons from the API: :white_check_mark:
-- Pagination with infinite scrolling :white_check_mark:
+- Pagination with infinite scrolling: :white_check_mark:
 - Minor CSS adjustments: :x:
 - Pokemon information page: :x:
