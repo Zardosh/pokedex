@@ -1,0 +1,95 @@
+header {
+    display: flex;
+    background-color: #EB1D1D;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #f5f5f5;
+    padding: 10px 15px;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#pokedex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 4vw;
+    row-gap: 4vw;
+    align-items: center;
+    margin-bottom: 4vw;
+}
+
+.pokemon-container {
+    background-color: #ddd;
+    max-width: 200px;
+    color: #555;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    transition: 0.2s;
+    box-shadow: 0;
+    cursor: pointer;
+}
+
+.pokemon-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.38);
+}
+
+.pokemon-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-container figure img {
+    height: 100px;
+    width: 100px;
+}
+
+.pokemon-container figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-container h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* TYPE PILLS */
+
+.types-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+}
+
+.type-pill {
+    border-radius: 16px;
+    padding: 2px 12px;
+    color: #eee;
+}
+
+.type-pill + .type-pill {
+    margin-left: 8px;
+}
